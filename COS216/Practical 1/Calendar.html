@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<title>Calendar</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/Calendar.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Release Date Calendar">
+		<meta name="author" content="Mbulelo Marambana">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+<body>
+	 <script type="text/javascript" src="../Practical2/Calendar.js"></script>  
+	<div class="header">
+		<img src="img/Website Logo.png" >
+			<h1>Red Musique<h1>
+					
+			<li><a href="Calendar.html"><img height="50px" width="50px" src="img/Calendar.svg" /><span>Calendar<span></a></li>
+	</div>
+	</div>
+	
+	<div class="nav-container">
+		<nav>
+			<ul>
+				<li><a href="../../index.html"> <img src="img/Home.svg" />Home</a></li>
+				<li><a href="NewReleases.html"><img src="img/News.svg" />New Releases</a></li>
+				<li><a href="Trending.html"><img src="img/Trending.svg" />Trending</a></li>
+				<li><a href="TopRated.html"><img src="img/Top Rated.svg" />Top Rated</a></li>
+				<li><a href="Featured.html"><img src="img/Featured.svg" />Featured</a></li>
+				<li><a href="Tour.html"><img src="img/Tour.svg" />Tour</a></li>
+				<li><a href="Calendar.html"><img src="img/Calendar.svg" />Calendar</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="wrapper">
+		<div class="change"><a  onclick="change('prev')"> <img src="img/Previous.svg"/>Prev</a></div>
+		<div class ="banner"><button type=button onclick="today()" >Today</button> February 2019</div>
+		<div class="tbl">
+			<table>
+				<tr>
+					<td><span class="day">1</span></td>
+					<td><span class="day">2</span></td>
+					<td><span class="day">3</span></td>
+					<td><span class="day">4</span></td>
+					<td><span class="day">5</span></td>
+					<td><span class="day">6</span></td>
+					<td><span class="day">7</span></td>
+				</tr>
+				
+				<tr>
+					<td><span class="day">8</span></td>
+					<td><span class="day">9</span></td>
+					<td><span class="day">10</span></td>
+					<td><span class="day">11</span></td>
+					<td><span class="day">12</span></td>
+					<td><span class="day">13</span></td>
+					<td><span class="day">14</span></td>
+				</tr>
+				
+				<tr>
+					<td><span class="day">15</span> </td>
+					<td><span class="day">16</span></td>
+					<td><span class="day">17</span></td>
+					<td><span class="day">18</span></td>
+					<td><span class="day">19</span></td>
+					<td><span class="day">20</span></td>
+					<td><span class="day">21</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><span class="day">22</span></td>
+					<td><span class="day">23</span></td>
+					<td><span class="day">24</span></td>
+					<td><span class="day">25</span></td>
+					<td><span class="day">26</span></td>
+					<td><span class="day">27</span></td>
+					<td><span class="day">28</span></td>
+				</tr>
+				<tr>
+				
+					<td>
+						<span class="day">29</span>
+							
+					
+					</td>
+					<td>
+					<span class="day">30</span>
+					</td>
+					<td><span class="day">31</span></td>
+				</tr>
+				
+			</table>
+		</div>
+			<div class ="changeR"><a onclick="change('next')"><img style="-ms-transform:rotate(180deg);transform:rotate(180deg);"src="img/Previous.svg"/>Next</a>
+			</div>
+	</div>
+	<div class="loader" ><img src="img/Spinner-1s-200px.svg"></div>
+</body>
+</html>

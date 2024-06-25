@@ -1,0 +1,191 @@
+.header li{
+	display:inline-block;
+	float:right;
+	position:relative;
+	bottom:55px;
+}
+.header li img{
+	display:inline-block;
+	height:55px;
+}
+.header img{
+	display:inline-block;
+	float:left;
+}
+.header h1{
+	position:relative;
+	top:30px;
+}
+.header span{
+	position:relative;
+	right:40px;
+}
+body{
+background-color:lightgray;
+background-image:url("../img/aiden-marples-Udu9NgiNFk8-unsplash.jpg") ;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+h1{
+text-align:left;
+color:white;
+}
+
+nav{
+
+}
+ul{
+list-style-type:none;
+margin:20px;
+padding:7px;
+overflow:hidden;
+background-color:transparent; 
+}
+li
+{
+float:left;
+border-right:1px solid white;
+}
+li a
+{
+display:block;
+color:white;
+text-align:center;
+font-size:28;
+padding:10px 26px;
+text-decoration:none;
+width:auto;
+font-weight:bold;
+font-size:28px;
+text-color:silver;
+background:transparent;
+
+}
+
+li img{
+	height:35px;
+	align:left ;
+	fill:white;
+}
+li:last-child{
+border-right:none;
+}
+li a:hover{
+background-color:darkred;
+}
+
+.active{
+background-color:red;
+}
+
+.not active{
+	background-color:black;
+}
+
+.header{
+background-color:transparent ;
+padding:5px;
+margin:0;
+radius:12px;
+overflow:auto;
+text-align:center;
+}
+.header img{
+	float:left;
+	width:100px;
+	height:100px;
+	background:transparent;
+	text-align:center;
+}
+
+.search-container{  
+	background-color:transparent;
+	width:700px;
+	height:100px;
+	margin:auto;
+	border:2px black;
+	text-align:center;
+	
+}
+
+.search-container button{
+	
+	/*float:right;*/
+	display:inline-block;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	border-radius:5px;
+	
+}.search-container button img{
+	height:35px;
+	width:50%;
+	padding:1px;
+	display:inline-block; 
+	border-bottom:5px;
+}
+
+.search-container input[type=text]{
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+}
+
+
+.listing-container table{
+	
+	width:100%;
+	height:400px;
+	background-color: rgba(0,0,0,0.7);
+	border:1px solid white;
+	padding:15px;
+	border-radius:20px;
+	margin:auto;
+}
+.listing-container table th{
+	border-botttom:1px dotted white;
+	font-weight:bold;
+	text-color:white;
+}
+
+.listing-container table th,td img{
+	border-radius:25px;
+}
+.listing-container table td{
+	font-size:15px;
+	color:white;
+}
+
+.listing-container caption{
+	font-family:Verdana;
+	font-size:37px;
+	font-weight:bolder;
+	color:white;
+	text-shadow:2px 2px gray;
+	
+	
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

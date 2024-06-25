@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Music</title>
+		<script src="api.js"></script>
+	</head>
+	<body>
+		<h1>Welcome to Black Hole Music</h1>
+				
+		<h3 id="message"></h3>
+				
+		<!-- LOGIN -->
+		<div id="login">
+			Username: <input type="text" id="username"><br/>
+			Password: <input type="password" id="password"><br/>
+			<input type="submit" value="Login" onclick="login()">
+		</div>
+				
+		<!-- LOGOUT -->
+		<div id="logout" style="display:none">
+			<input type="submit" value="Logout" onclick="logout()">
+		</div>
+		
+		<pre id=music>
+		
+		</pre>
+	</body>
+</html>
