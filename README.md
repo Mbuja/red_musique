@@ -19,3 +19,6 @@ You can view the live version of Red Musique [here](https://mbuja.github.io/red_
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/red-musique.git
+   Images & Media Disclaimer
+Disclaimer:
+All images and media used on this site are for demonstration purposes only. They are either sourced from free-to-use image libraries or are placeholders. All rights reserved for the images, and they are not intended for commercial use. Please replace them with your own licensed images if you intend to use this site in a live environment.
